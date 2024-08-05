@@ -68,7 +68,7 @@ nav a.active {
     nav {
         display: flex;
         flex-direction: row;
-        position: static; /* Makes it part of the normal flow */
+        position: static;
         width: auto;
         background-color: sienna;
         border: none;
@@ -78,12 +78,12 @@ nav a.active {
 
     nav a {
         font-size: 1.8rem;
-        margin: 0 1rem; /* Adjust spacing between links */
+        margin: 0 1rem;
         padding: 1rem;
     }
 
     .logo {
-        margin-right: auto; /* Pushes the logo to the left */
+        margin-right: auto;
     }
 }
 
@@ -244,8 +244,8 @@ span {
     .projects-iframe iframe, .skills-img img, .education-img img, .experience-img img {
         margin-top: 4rem;
         width: 70vw;
-        border-radius: 10px; /* Rounded corners */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 
     .contact {
@@ -295,10 +295,10 @@ span {
 .skills-img, .education-img, .experience-img {
     display: block;
     margin: 20px auto;
-    border: 5px solid #333; /* Dark border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-    max-width: 100%; /* Responsive */
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
     height: auto;
 }
 
@@ -336,16 +336,16 @@ textarea, input[type="text"], input[type="email"] {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     font-size: 16px;
-    resize: vertical; /* Allows vertical resizing */
+    resize: vertical;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .container {
-    text-align: center; /* Center horizontally */
+    text-align: center;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center; /* Center vertically */
+    align-items: center;
 }
 
 button {
@@ -353,9 +353,9 @@ button {
     width: 200px; 
 }
 footer {
-    text-align: center; /* Centers the text horizontally */
-    font-size: 2rem; /* Adjust the font size as needed */
-    padding: 2rem; /* Adds padding around the footer */
-    background-color: sienna; /* Optional: background color */
-    color: white; /* Optional: text color */
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: sienna;
+    color: white;
 }
