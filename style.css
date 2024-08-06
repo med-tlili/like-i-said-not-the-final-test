@@ -227,6 +227,20 @@ span {
         margin-top: 4rem;
         width: 70vw;
     }
+    .social-icons a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+        background-color: transparent;
+        border: 0.2rem solid sienna;
+        font-size: 2rem;
+        border-radius: 50%;
+        margin: 3rem 1.5rem;
+        transition: 0.3s ease;
+        color: sienna;
+    }
 
     .projects {
         flex-direction: column;
